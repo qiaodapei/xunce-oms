@@ -1,7 +1,6 @@
 version: "3"
 services:
-  nodejs:
-    build: centos 
+  xunce-oms:
     image: qiaodapei/xunce-oms:centos-0.0.1 
     container_name: xunce-oms
     restart: always
