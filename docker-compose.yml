@@ -9,3 +9,5 @@ services:
       - JENKINS_URL=http://jenkins:8080/computer/oms-client/slave-agent.jnlp
       - JENKINS_SECRET=0d83f337096e12a3ab36072a2c87c70242bac40afdfff80cc76c90fb79614dd0
       - JENKINS_AGENT_WORKDIR=/data/jenkins_home
+    volumes:
+      - /etc/localtime:/usr/share/zoneinfo/Asia/Shanghai

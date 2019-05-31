@@ -6,7 +6,7 @@ LABEL maintainer="<371583076@qq.com>" \
       vendor="qiaodapei" \
       version="2.164.3" \
       systemver="centos" \
-      desc="centos or nodejs" \
+      desc="xunce-oms" \
       build-date="20190531"   
 COPY Resource /tmp/Resource
 ### SET ENVIRONNEMENT
