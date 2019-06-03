@@ -34,6 +34,7 @@ RUN localedef -v -c -i en_US -f UTF-8 zh_CN.UTF-8 >/dev/null 2>&1 &&\
     cp -r /tmp/Resource/ZendGuardLoader.so /lib64/php/modules/ &&\
     cp -r /tmp/Resource/agent.jar /usr/bin/agent.jar && \
     cp -r /tmp/Resource/jenkins.sh /usr/local/bin/jenkins.sh && \
+    chmod +x /usr/bin/composer &&\
     chmod +x /lib64/php/modules/ZendGuardLoader.so &&\
     chmod +x /usr/bin/agent.jar && chmod +x /usr/local/bin/jenkins.sh && \
     mkdir -p /data/script && cp -r /tmp/Resource/encode.php /data/script/encode.php &&\
